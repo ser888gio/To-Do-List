@@ -9,8 +9,7 @@ function App() {
   }
 
   const addTask = () =>{
-    const newTodoList = [...toDoList, newTask]
-    setToDoList(newTodoList)
+    setToDoList([...toDoList, newTask])
   }
 
   const deletTask = (taskName) =>{
